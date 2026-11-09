@@ -1,10 +1,3 @@
-"""
-train_model.py  (Execution lead)
-
-Builds a Pipeline (scaling + Logistic Regression) and trains it.
-The Pipeline learns the scaling from the training data only, like in Practice Lab 7.
-"""
-
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 from sklearn.pipeline import Pipeline
