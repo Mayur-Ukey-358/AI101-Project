@@ -1,10 +1,3 @@
-"""
-main.py  (Execution lead)
-
-Runs everything in order:  prepare data -> train model -> evaluate.
-Run from the repo folder with:  python src/main.py
-"""
-
 from data_prep import load_and_split
 from evaluate import evaluate
 from train_model import train
