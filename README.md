@@ -55,7 +55,7 @@ git clone https://github.com/Mayur-Ukey-358/AI101-Project.git
 cd AI101-Project
 python -m venv venv
 venv\Scripts\activate
-pip install -r requirements.txt
+pip install -r requirements.txt   /   python -m pip install -r requirements.txt  (If Blocked by System)
 ```
 
 ## How to run
