@@ -71,14 +71,21 @@ pip install -r requirements.txt
 
 ## Results
 
-| Metric | Value |
+| Metric (test set, 2,000 matches) | Value |
 |---|---|
-| Accuracy | [0.xx] |
-| Precision | [0.xx] |
-| Recall | [0.xx] |
-| F1 score | [0.xx] |
+| Accuracy | 0.952 (95.2%) |
+| Precision | 0.946 |
+| Recall | 0.955 |
+| F1-score | 0.950 |
 
-[One or two sentences about what the results mean.]
+Confusion matrix: TN = 975, FP = 53, FN = 44, TP = 928.
+
+On the 2,000 test matches, the logistic regression model predicts the winner correctly 95.2% of the time. Always guessing the more common outcome would be right only 51.4% of the time, so the model has learned useful patterns. Training accuracy (94.8%) is close to test accuracy (95.2%), so the model is not overfitting, and its errors are balanced between the two classes.
+
+![Confusion matrix](outputs/confusion_matrix.png)
+![Top features](outputs/top_features.png)
+
+Note: the dataset is simulated, so these results show that the method works, not how well it would predict real basketball matches.
 
 ## Links
 
@@ -89,4 +96,4 @@ pip install -r requirements.txt
 
 - [Tool name, e.g. Claude]: [what it was used for, e.g. "helped draft the README structure and debug train_model.py"]; [how we checked it, e.g. "we ran the code and edited the text ourselves"].
 - [Add one line per tool and per task.]
-- No AI was used to generate the dataset or the results. [Edit if this is not true.]
+- No AI was used to generate the dataset or the results.
