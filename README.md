@@ -4,7 +4,7 @@
 
 Predicts which basketball team wins a match using logistic regression (pandas, matplotlib, scikit-learn).
 
-`AI101 Mini-Project` · `Team [41]` · `Python 3.10+`
+`AI101 Mini-Project` · `Team 41` · `Python 3.10+`
 
 ## Team and roles
 
@@ -63,7 +63,7 @@ pip install -r requirements.txt   /   python -m pip install -r requirements.txt 
 1. Run: `python src/main.py`
 2. The script prints the model accuracy and other metrics, and saves plots in `outputs/`.
 3. To predict one match: `python src/predict.py`
-4. Expected runtime: under [30] seconds.
+4. Expected runtime: under 45 seconds.
 
 ## Expected output
 
@@ -90,10 +90,10 @@ Note: the dataset is simulated, so these results show that the method works, not
 ## Links
 
 - Slides (5): [docs/Team41_Slides.pdf](docs/Team41_Slides.pdf)
-- Video ([m:ss]): [paste the unlisted YouTube / Drive link here]
+- Video (05:26): https://drive.google.com/file/d/1hluHhQezcU_4uTmkDUjRROvN31PDVSc7/view?usp=drivesdk
 
 ## AI-use disclosure
 
-- [Tool name, e.g. Claude]: [what it was used for, e.g. "helped draft the README structure and debug train_model.py"]; [how we checked it, e.g. "we ran the code and edited the text ourselves"].
-- [Add one line per tool and per task.]
-- No AI was used to generate the dataset or the results.
+Claude (Anthropic) helped structure and debug the code and draft the README and slides. We ran and 
+tested every file ourselves, and each member can explain their part. All results come from running our code on the Kaggle 
+dataset.
