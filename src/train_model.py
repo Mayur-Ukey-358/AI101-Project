@@ -5,13 +5,12 @@ from sklearn.preprocessing import StandardScaler
 
 
 def train(X_train, y_train):
-    # Pipeline: first scale the features, then apply Logistic Regression
+
     model = Pipeline(steps=[
         ("scaler", StandardScaler()),
         ("classifier", LogisticRegression(max_iter=1000))
     ])
 
-    # Train the model using the training data
     model.fit(X_train, y_train)
 
     train_accuracy = accuracy_score(y_train, model.predict(X_train))
