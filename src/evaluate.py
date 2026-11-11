@@ -64,7 +64,7 @@ def evaluate(model, X_test, y_test):
     plt.savefig("outputs/actual_vs_predicted_counts.png")
     plt.close()
 
-    # Graph 3: the 10 features with the biggest coefficients (b1, b2, ... of the model)
+    # Graph 3
     coefficients = pd.Series(model.named_steps["classifier"].coef_[0], index=X_test.columns)
     top = coefficients.reindex(coefficients.abs().sort_values(ascending=False).index).head(10)
     plt.figure(figsize=(7, 5))
