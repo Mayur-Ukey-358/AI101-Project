@@ -89,7 +89,7 @@ Note: the dataset is simulated, so these results show that the method works, not
 
 ## Links
 
-- Slides (5): [docs/Team41_slides.pdf](docs/Team41_slides.pdf)
+- Slides (5): [docs/Team41_Slides.pdf](docs/Team41_Slides.pdf)
 - Video ([m:ss]): [paste the unlisted YouTube / Drive link here]
 
 ## AI-use disclosure
