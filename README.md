@@ -2,9 +2,9 @@
 
 # Basketball Match Winner Predictor
 
-Predicts which basketball team wins a match using logistic regression (pandas, matplotlib, scikit-learn).
+Predicts which basketball team wins a match using logistic regression (pandas, numpy, scikit-learn, matplotlib, joblib, seaborn).
 
-`AI101 Mini-Project` · `Team 41` · `Python 3.10+`
+`AI101 Mini-Project` · `Team 41` · `Python 3.11+`
 
 ## Team and roles
 
@@ -19,7 +19,7 @@ Predicts which basketball team wins a match using logistic regression (pandas, m
 
 - **Goal:** predict whether a team wins a match (win / lose), given the match and team statistics.
 - **Dataset:** Basketball Tournament Dataset (Kaggle, a simulated dataset), https://www.kaggle.com/datasets/sharmajicoder/basketball-tournament-dataset
-- **Size:** [10000 rows, 22 columns]
+- **Size:** 10,000 rows, 22 columns
 - **Target column:** Winner
 - **Model:** Logistic regression (binary classification)
 
@@ -28,18 +28,18 @@ Predicts which basketball team wins a match using logistic regression (pandas, m
 ## Project structure
 
 ```
-basketball-win-predictor/
+AI101-Project/
 ├── data/
-│   └── Basketball Tournament Dataset.csv      # dataset
+│   └── synthetic_basketball_dataset.csv   # dataset
 ├── src/
 │   ├── data_prep.py                 # load, clean, split the data
 │   ├── train_model.py               # train the logistic regression model
 │   ├── evaluate.py                  # metrics and plots
-│   ├── predict.py                   # predict the winner of one match (demo)
+│   ├── predict.py                   # predict the winner of example matches (demo)
 │   └── main.py                      # runs the whole pipeline
 ├── outputs/                         # plots and results are saved here
 ├── docs/
-│   ├── Team41_slides.pdf            # 5 slides
+│   ├── Team41_Slides.pdf            # 5 slides
 │   └── expected_output.png          # screenshot of a successful run
 ├── requirements.txt
 ├── .gitignore
@@ -55,8 +55,12 @@ git clone https://github.com/Mayur-Ukey-358/AI101-Project.git
 cd AI101-Project
 python -m venv venv
 venv\Scripts\activate
-pip install -r requirements.txt   /   python -m pip install -r requirements.txt  (If Blocked by System)
+pip install -r requirements.txt
 ```
+
+If `pip` is not recognized, use `python -m pip install -r requirements.txt`.
+
+If Windows blocks the activate step, run `Set-ExecutionPolicy -Scope Process Bypass` first.
 
 ## How to run
 
