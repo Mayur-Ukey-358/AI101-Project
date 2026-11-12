@@ -94,7 +94,7 @@ Note: the dataset is simulated, so these results show that the method works, not
 ## Links
 
 - Slides (5): [docs/Team41_Slides.pdf](docs/Team41_Slides.pdf)
-- Video (05:26): https://drive.google.com/file/d/1hluHhQezcU_4uTmkDUjRROvN31PDVSc7/view?usp=drivesdk
+- Video (05:26): https://drive.google.com/file/d/1p06sLNclLc0iw74vRSL1gzh7kNXukCcs/view?usp=drivesdk
 
 ## AI-use disclosure
 
